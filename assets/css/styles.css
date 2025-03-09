@@ -5,15 +5,12 @@ body {
   color: white;
 }
 
+/* Header */
 header {
   text-align: center;
 }
 
 /* Footer */
-.copyright {
-  text-align: left;
-}
-
-.social-media {
-  text-align: right;
+footer {
+  text-align: center;
 }
