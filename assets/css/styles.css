@@ -5,6 +5,11 @@ body {
   color: white;
 }
 
+/* Nav Bar */
+ul {
+  list-style-type: none;
+}
+
 /* Header */
 header {
   text-align: center;
