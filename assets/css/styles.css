@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Nav Bar */
 ul {
   list-style-type: none;
