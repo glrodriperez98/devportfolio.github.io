@@ -13,6 +13,9 @@ h2 {
 ul {
   list-style-type: none;
 }
+nav {
+  display: inline-block;
+}
 
 /* Header */
 header {
@@ -26,5 +29,5 @@ header {
 /* Footer */
 footer {
   text-align: center;
-  background-color: DimGray
+  background-color: DarkSlateGrey
 }
