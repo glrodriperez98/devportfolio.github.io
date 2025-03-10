@@ -70,17 +70,15 @@ li {
   margin: 0;
 }
 
-/* About Page 
-.about {
+/* About Page */
+.about p {
   display: flex;
   justify-content: flex-start;
   align-items: flexstart;
-}
-
-.about p {
   width: 100%
   margin: 0;
 }
+
 /* Contact Form*/
 .contact-form-wrapper {
   display: flex;
