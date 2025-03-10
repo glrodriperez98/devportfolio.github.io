@@ -77,7 +77,8 @@ li {
 /* Footer */
 footer {
   text-align: center;
-  background-color: DarkSlateGrey
+  background-color: #404040;
+  padding: 20px 0;
 }
 
 .return-home {
@@ -90,6 +91,17 @@ footer {
 }
 
 .social-media {
-  height: 10px;
-  width: 10px;
+  display: inline-flex;
+  justiry-content: center;
+  gap: 15px;
+}
+
+.social-media i {
+  font-size: 2rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-media i:hover {
+  color: #D67976;
 }
