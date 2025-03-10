@@ -1,11 +1,13 @@
 // Hide and show nav bar when scrolling to the about page
-document.addEventListener("scroll", function () {
-        let navbar = document.querySelector("nav-bar");
-        let firstSection = document.getElementById("about");
+document.addEventListener("DOMContentLoaded", function () {
+    let navbar = document.getElementById("nav-bar");
+    let firstSection = document.getElementById("about");
 
+    document.addEventListener("scroll", function () {
         if (window.scrollY > firstSection.clientHeight - 50) {
-            navbar.classList.remove("hidden-nav");  // Show navbar
+            navbar.style.top = "0";  // Show navbar
         } else {
-            navbar.classList.add("hidden-nav");  // Hide navbar
+            navbar.style.top = "-60px";  // Hide navbar
         }
     });
+});
