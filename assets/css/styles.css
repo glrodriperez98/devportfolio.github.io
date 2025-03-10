@@ -96,12 +96,12 @@ footer {
   gap: 15px;
 }
 
-.social-media i {
+.social-media img {
   font-size: 2rem;
   color: white;
   transition: color 0.3s ease;
 }
 
-.social-media i:hover {
+.social-media img:hover {
   color: #D67976;
 }
