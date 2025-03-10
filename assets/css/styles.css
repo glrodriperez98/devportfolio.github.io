@@ -73,7 +73,50 @@ li {
 /* Contact Form*/
 .contact-form {
   text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #D67976;
+  background-color: #fff
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
+
+/* Ensure form elements are styled */
+.contact-forn input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%
+  max-width: 400px
+  box-sizing: border-box;
+  padding: 10px
+  margin: 5px 0;
+  border: 1px solid #D67976
+  border-radius: 5px;
+}
+
+/* Stle for textarea */
+.contact-form textarea {
+  height: 150px
+  resize: vertical;
+}
+
+/* Style for submit button */
+.contact-form button {
+  cursor: pointer;
+  background-color: #D67976;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  fontsize: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #D67976
+  font-color: black;
+}
+
 /* Footer */
 .footer-container {
   text-align: center;
