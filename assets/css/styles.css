@@ -19,6 +19,10 @@ h2 {
 .heading-cta {
   color: #D67976;
   font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 10px
+  text-decoration: none;
 }
 
 /* Nav Bar */
