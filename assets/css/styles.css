@@ -15,6 +15,11 @@ section {
 h2 {
   text-align: center;
 }
+/* Heading CTA */
+.heading-cta {
+  color: #D67976;
+  font-weight: bold;
+}
 
 /* Nav Bar */
 ul {
