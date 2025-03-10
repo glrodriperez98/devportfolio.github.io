@@ -75,8 +75,12 @@ li {
   text-align: center;
 }
 /* Footer */
-footer {
+.footer-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #404040;
   padding: 20px 0;
 }
@@ -91,14 +95,15 @@ footer {
 }
 
 .social-media {
-  display: inline-flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
   gap: 15px;
 }
 
 .social-media .icon {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   fill: white;
   transition: color 0.3s ease;
 }
