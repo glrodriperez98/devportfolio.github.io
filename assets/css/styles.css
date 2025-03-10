@@ -104,10 +104,10 @@ li {
 .social-media .icon {
   width: 40px;
   height: 40px;
-  fill: white;
+  color: white;
   transition: color 0.3s ease;
 }
 
 .social-media .icon:hover {
-  fill: #D67976;
+  color: #D67976;
 }
