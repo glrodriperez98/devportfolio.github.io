@@ -88,3 +88,8 @@ footer {
   margin-top: 10px;
   text-decoration: none;
 }
+
+.social-media {
+  height: 50px;
+  width: 50px;
+}
