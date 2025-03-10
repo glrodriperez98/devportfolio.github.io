@@ -71,7 +71,7 @@ li {
 }
 
 /* About Page */
-.about p {
+.about-blurb {
   display: flex;
   justify-content: flex-start;
   align-items: flexstart;
