@@ -25,7 +25,7 @@ h2 {
   font-weight: bold;
   display: block;
   text-align: center;
-  margin-top: 10px
+  margin-top: 10px;
   text-decoration: none;
 }
 
@@ -78,4 +78,13 @@ li {
 footer {
   text-align: center;
   background-color: DarkSlateGrey
+}
+
+.return-home {
+  color: #D67976;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
 }
