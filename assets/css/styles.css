@@ -20,8 +20,6 @@ section {
   margin: 0;
 }
 
-.about, .projects, .education, .certifications, .contact {
-  padding-top: 80px;
 }
 h2 {
   text-align: center;
@@ -112,7 +110,7 @@ li {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     margin-top: 80px
     padding-top: 0px;
