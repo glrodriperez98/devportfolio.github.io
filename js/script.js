@@ -11,3 +11,26 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+// Highlight active narbar link when scrolling to a section and removing highlight when moving to another
+document.addEventListener("DOMContentLoaded, function () {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-selectors");
+
+    function changeActiveLink() {
+        let fromTop = window.scrollY;
+
+        sections.forEach((section) => {
+            let sectionTop = section.offsetTop - 60;
+            let sectionHeight = section.offsetHeight;
+            let sectionID = section.getAttribute("id");
+
+            if (fromTop >= sectionTop && fromTop < sectionTop + sectionHeight) {
+                navLinks.forEach((link) => link.classList.remove("active"));
+                document.querySelector(`.nav-selectors[href="#${sectionId}"]`).classList.add("active");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", changeActiveLink);
+});
