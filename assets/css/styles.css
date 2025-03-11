@@ -50,13 +50,14 @@ nav {
 
 .nav-selectors {
   color: #fff;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   text-decoraction: none;
+  transition: color 0.3 ease-in-out;
 }
 
-.nav-selectors:hover {
+.nav-selectors.active {
   color: #D67976;
+  font-weight: bold;
 }
 
 ul {
