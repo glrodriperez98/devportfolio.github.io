@@ -182,13 +182,12 @@ li {
 /* Input fields will be same size */
 .contact-form input {
   height: 40px;
-  width: 40px;
 }
 
 /* Style for submit button */
 .contact-form button {
   cursor: pointer;
-  background-color: #D67976;
+  font-weight: bold;
   color: white;
   border: none;
   border-radius: 5px;
