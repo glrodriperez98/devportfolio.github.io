@@ -48,6 +48,17 @@ nav {
   top: -60px;
 }
 
+.nav-selectors {
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoraction: none;
+}
+
+.nav-selectors:hover {
+  fill: #D67976;
+}
+
 ul {
   display: flex;
   list-style-type: none;
