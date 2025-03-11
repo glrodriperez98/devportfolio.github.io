@@ -10,7 +10,7 @@ body {
 }
 section {
   width: 100%;
-  padding: 0;
+  padding-top: 80px;
   display: table;
   margin: 0;
   max-width: none;
@@ -36,7 +36,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: #404040;
-  font-color: #D67976;
+  font-color: #fff;
   padding: 10px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
