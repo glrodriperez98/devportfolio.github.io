@@ -55,6 +55,11 @@ nav {
   transition: color 0.3 ease-in-out;
 }
 
+.nav-selectors:hover {
+  color: #D67976;
+  font-weight: bold; 
+}
+
 .nav-selectors.active {
   color: #D67976;
   font-weight: bold;
