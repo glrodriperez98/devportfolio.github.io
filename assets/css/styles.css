@@ -163,7 +163,7 @@ li {
   transition: fill 0.3s ease;
 }
 
-.return-home .icon {
+.return-home .icon:hover {
   fill: #D67976;
 }
 
