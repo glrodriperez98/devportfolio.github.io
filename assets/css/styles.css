@@ -51,12 +51,12 @@ nav {
 .nav-selectors {
   color: #fff;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   text-decoraction: none;
 }
 
 .nav-selectors:hover {
-  fill: #D67976;
+  color: #D67976;
 }
 
 ul {
@@ -106,7 +106,7 @@ li {
   box-sizing: border-box;
   border: 1px solid #D67976;
   border-radius: 10px;
-  background-color: #fff
+  background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
@@ -116,7 +116,7 @@ li {
 .contact-form button {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px
+  padding: 10px;
   margin: 5px 0;
   border: 1px solid #D67976;
   border-radius: 5px;
