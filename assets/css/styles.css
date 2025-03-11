@@ -11,6 +11,7 @@ body {
 section {
   width: 100%;
   padding-top: 80px;
+  padding-bottom: 40px;
   display: table;
   margin: 0;
   max-width: none;
@@ -36,7 +37,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: #404040;
-  font-color: #fff;
+  color: #fff;
   padding: 10px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
@@ -146,7 +147,7 @@ li {
   justify-content: center;
   align-items: center;
   background-color: #404040;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .return-home {
