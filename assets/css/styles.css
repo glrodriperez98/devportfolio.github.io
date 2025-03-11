@@ -102,7 +102,7 @@ li {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     position: relative; /* Make sure the paragraph is positioned relative to this section */
@@ -117,8 +117,6 @@ li {
     width: 50%; /* Adjust width as needed */
     padding: 20px;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
