@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Highlight active narbar link when scrolling to a section and removing highlight when moving to another
-document.addEventListener("DOMContentLoaded, function () {
+// Highlight active navbar link when scrolling to a section and remove highlight when moving to another
+document.addEventListener("DOMContentLoaded", function () {  
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-selectors");
 
@@ -27,7 +27,11 @@ document.addEventListener("DOMContentLoaded, function () {
 
             if (fromTop >= sectionTop && fromTop < sectionTop + sectionHeight) {
                 navLinks.forEach((link) => link.classList.remove("active"));
-                document.querySelector(`.nav-selectors[href="#${sectionId}"]`).classList.add("active");
+
+                let activeLink = document.querySelector(`.nav-selectors[href="#${sectionID}"]`);
+                if (activeLink) {
+                    activeLink.classList.add("active");
+                }
             }
         });
     }
