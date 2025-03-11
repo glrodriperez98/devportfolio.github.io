@@ -34,7 +34,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%
+  width: 100%;
   background-color: #404040;
   font-color: #D67976;
   padding: 10px 0;
@@ -75,7 +75,7 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: flexstart;
-  width: 100%
+  width: 100%;
   margin: 0;
 }
 
@@ -83,7 +83,7 @@ li {
 .contact-form-wrapper {
   display: flex;
   justify-content: center;
-  align-items; center;
+  align-items: center;
 }
 
 .contact-form {
@@ -93,7 +93,7 @@ li {
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #D67976;
-  border-radius: 10px
+  border-radius: 10px;
   background-color: #fff
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
@@ -102,23 +102,23 @@ li {
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
-  width: 100%
+  width: 100%;
   box-sizing: border-box;
   padding: 10px
   margin: 5px 0;
-  border: 1px solid #D67976
+  border: 1px solid #D67976;
   border-radius: 5px;
 }
 
 /* Stle for textarea */
 .contact-form textarea {
-  height: 200px
+  height: 200px;
   resize: vertical;
 }
 
 /* Input fields will be same size */
 .contact-form input {
-  height: 40px
+  height: 40px;
   width: 40px;
 }
 
@@ -134,7 +134,7 @@ li {
 }
 
 .contact-form button:hover {
-  background-color: #D67976
+  background-color: #D67976;
   color: black;
 }
 
@@ -150,12 +150,21 @@ li {
 }
 
 .return-home {
-  color: #D67976;
-  font-weight: bold;
   display: block;
   text-align: center;
   margin-top: 10px;
-  text-decoration: none;
+  gap: 15px;
+}
+
+.return-home .icon {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+  transition: fill 0.3s ease;
+}
+
+.return-home .icon {
+  fill: #D67976;
 }
 
 .social-media {
