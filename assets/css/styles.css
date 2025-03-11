@@ -111,8 +111,8 @@ li {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    position: relative; /* Make sure the paragraph is positioned relative to this section */
-    padding-top: 80px;
+    position: relative;
+    padding-top: 120px;
     padding-left: 20px;
     padding-right: 20px
   
@@ -120,17 +120,17 @@ li {
 
 .about-blurb {
     position: absolute;
-    top: 50%; /* Vertically center the paragraph */
-    left: 0;  /* Align the paragraph to the left side */
-    transform: translateY(-50%); /* Adjust for perfect centering */
-    width: 50%; /* Adjust width as needed */
+    top: 50%;
+    left: 0; 
+    transform: translateY(-50%);
+    width: 50%;
     padding: 20px;
     text-align: left;
 }
 
 @media (max-width: 768px) {
     .about-blurb {
-        width: 100%; /* Make it full-width on smaller screens */
+        width: 100%;
         padding: 10px;
     }
 }
