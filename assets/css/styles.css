@@ -1,3 +1,4 @@
+/* Global styling */
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +34,11 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+}
+
+/*Remove global padding-top for sections to avoid unecessary space */
+.about, .projects, .education, .certifications, .contact {
+  padding-top: 0;
 }
 
 /* Heading CTA */
@@ -113,7 +119,7 @@ li {
     min-height: 100vh;
     position: relative;
     margin-top: 80px;
-    padding-top: 0px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px
   
