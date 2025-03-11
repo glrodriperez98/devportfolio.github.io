@@ -18,7 +18,7 @@ section {
 }
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 p {
@@ -106,7 +106,10 @@ li {
     align-items: center;
     height: 100vh;
     position: relative; /* Make sure the paragraph is positioned relative to this section */
-    padding: 0 20px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px
+  
 }
 
 .about-blurb {
