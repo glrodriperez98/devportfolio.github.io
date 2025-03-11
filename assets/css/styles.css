@@ -147,19 +147,20 @@ li {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  width: 70px;
+  width: 100px;
   padding: 20px;
   border: 4px solid #D67976;
   text-align: right;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; 
+  gap: 15px;
 }
 
 .about-skills img {
-  width: 70px;
+  width: 80px;
   height: auto;
+  display: block;
 }
 
 /* Contact Form*/
