@@ -25,7 +25,7 @@ p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px
+  margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
@@ -100,31 +100,32 @@ li {
 
 /* About Page */
 .about {
-  height: 24rem;
-  margin-bottom: 4rem;
-  display: flex;
-  justify-conten: flex-start;
-  align-items: center;
-  padding: 0 20px
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Make sure the paragraph is positioned relative to this section */
+    padding: 0 20px;
 }
 
 .about-blurb {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 50%;
-  padding: 20px;
-  text-align: left;
+    position: absolute;
+    top: 50%; /* Vertically center the paragraph */
+    left: 0;  /* Align the paragraph to the left side */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
-  .about-blurb {
-    width: 100%
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .about-blurb {
+        width: 100%; /* Make it full-width on smaller screens */
+        padding: 10px;
+    }
 }
 
 /* Contact Form*/
