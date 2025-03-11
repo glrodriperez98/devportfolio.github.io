@@ -8,13 +8,19 @@ body {
   font-size: 16px;
   color: white;
 }
+
 section {
-  width: 100%;
-  padding-top: 80px;
-  display: table;
-  margin: 0;
-  max-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.about, .projects, .education, .certifications, .contact {
+  padding-top: 80px;
 }
 h2 {
   text-align: center;
@@ -138,6 +144,7 @@ li {
 
 .contact-form {
   text-align: center;
+  color: black;
   width: 100%;
   max-width: 500px;
   padding: 20px;
