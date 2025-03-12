@@ -136,13 +136,11 @@ li {
 /* Profile Picture */
 .profile-picture {
     position: absolute;
-    top: 50%;
     left: 7%; 
     transform: translateY(-50%);
-    width: 50%;
+    width: 30%;
     padding: 20px;
     text-align: left;
-    margin: 0;
 }
 
 /* About Blurb Paragraph */
