@@ -133,7 +133,12 @@ li {
     padding-right: 20px  
 }
 
-/*About Blurb Paragraph */
+/* Profile Picture */
+.profile-picture svg {
+  background-color: transparent;
+}
+
+/* About Blurb Paragraph */
 .about-blurb {
     position: absolute;
     top: 50%;
