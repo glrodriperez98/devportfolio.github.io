@@ -153,8 +153,9 @@ li {
 
 /* Styling for Profile Picture */
 .profile-picture svg {
-  width: 150px;
+  width: 400px;
   height: auto;
+  left: 7%
   fill: linear-gradient(to left, #d67976, #6699ff)
 }
 
