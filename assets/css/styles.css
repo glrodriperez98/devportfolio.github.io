@@ -154,7 +154,7 @@ li {
 /* Container for Skills Icons */
 .about-skills {
   position: absolute;
-  right: 20%;
+  right: 30%;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -170,7 +170,7 @@ li {
   alight-items: center;
   justify-content: center;
   padding: 5px;
-  border-radius: 12px;
+  border-radius: 2px;
   position: relative;
   background: linear-gradient(to left, #d67976, #6699ff);
   padding: 10px
@@ -183,7 +183,7 @@ li {
   align-items: center;
   background: black;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 2px;
   position: relative;
 }
 
