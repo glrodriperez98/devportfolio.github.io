@@ -83,12 +83,15 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   transition: top 0.3s;
-  text-decoration: none;
 }
 
 .hidden-nav {
   top: -60px;
+}
+
+.nav-selectors a {
   text-decoration: none;
+  color: inherit;
 }
 
 .nav-selectors {
