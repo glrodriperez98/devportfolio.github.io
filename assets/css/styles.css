@@ -123,40 +123,48 @@ li {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    position: relative;
     margin-top: 80px;
     padding-top: 80px;
     padding-left: 20px;
-    padding-right: 20px  
+    padding-right: 20px;
+    text-align: center;
 }
 
-/*About Blurb Paragraph */
+/* Styling for Profile Picture */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-picture svg {
+    width: 400px; /* Adjust as needed */
+    height: auto;
+    fill: url(Gradient_1); /* Ensure your SVG supports this */
+}
+
+/* About Blurb Paragraph */
 .about-blurb {
-    position: absolute;
-    top: 50%;
-    left: 7%; 
-    transform: translateY(-50%);
     width: 50%;
+    max-width: 800px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .about-blurb {
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
-}
 
-/* Styling for Profile Picture */
-.profile-picture svg {
-  width: 400px;
-  height: auto;
-  left: 7%
-  fill: linear-gradient(to left, #d67976, #6699ff)
+    .profile-picture svg {
+        width: 150px; /* Adjust for smaller screens */
+    }
 }
 
 /* Container for Skills Icons */
