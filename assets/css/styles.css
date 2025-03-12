@@ -135,11 +135,13 @@ li {
 
 /* Profile Picture */
 .profile-picture {
-    height: 24rem;
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 7%; 
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 20px;
+    text-align: left;
 }
 
 /* About Blurb Paragraph */
