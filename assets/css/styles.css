@@ -160,7 +160,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 /* Wrapper for Each Skill (Image + Name) */
@@ -169,11 +169,11 @@ li {
   flex-direction: column;
   alight-items: center;
   justify-content: center;
-  padding: 5px;
-  border-radius: 2px;
+  padding: 3px;
+  border-radius: 12px;
   position: relative;
   background: linear-gradient(to left, #d67976, #6699ff);
-  padding: 10px
+  margin: 10px 0;
 }
 
 /* Prevent background bleeding */
@@ -182,16 +182,15 @@ li {
   flex-direction: column;
   align-items: center;
   background: black;
-  padding: 12px;
-  border-radius: 2px;
-  position: relative;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* Individual Icon Styling */
 .about-skills img {
   width: 50px;
   height: auto;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 /* Skills Name Styling */
