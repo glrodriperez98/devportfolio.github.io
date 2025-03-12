@@ -88,6 +88,7 @@ nav {
 
 .hidden-nav {
   top: -60px;
+  text-decoration: none;
 }
 
 .nav-selectors {
