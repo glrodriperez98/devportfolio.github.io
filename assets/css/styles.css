@@ -136,8 +136,8 @@ li {
 /* Profile Picture */
 .profile-picture {
     position: absolute;
-    top: 30%;
-    left: 14%; 
+    top: 25%;
+    left: 16%; 
     transform: translateY(-50%);
     width: 30%;
     padding: 20px;
