@@ -134,8 +134,12 @@ li {
 }
 
 /* Profile Picture */
-.profile-picture svg {
-  background-color: transparent;
+.profile-picture {
+    height: 24rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* About Blurb Paragraph */
