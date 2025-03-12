@@ -169,7 +169,7 @@ li {
   flex-direction: column;
   alight-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2px;
   border-radius: 12px;
   position: relative;
   background: linear-gradient(to left, #d67976, #6699ff);
@@ -189,7 +189,7 @@ li {
 
 /* Individual Icon Styling */
 .about-skills img {
-  width: 60px;
+  width: 40px;
   height: auto;
   border-radius: 10px;
 }
@@ -197,7 +197,7 @@ li {
 /* Skills Name Styling */
 .skills-name {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   color: #fff;
   text-align: center;
