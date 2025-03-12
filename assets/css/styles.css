@@ -89,16 +89,16 @@ nav {
   top: -60px;
 }
 
-.nav-selectors a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .nav-selectors {
   color: #fff;
   font-size: 18px;
-  text-decoraction: none;
+  text-decoration: none;
   transition: color 0.3 ease-in-out;
+}
+
+.nav-selectors a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-selectors:hover {
