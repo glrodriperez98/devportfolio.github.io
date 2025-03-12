@@ -127,7 +127,7 @@ li {
 .about-blurb {
     position: absolute;
     top: 50%;
-    left: 30%; 
+    left: 10%; 
     transform: translateY(-50%);
     width: 50%;
     padding: 20px;
