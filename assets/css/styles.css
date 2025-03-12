@@ -160,16 +160,48 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+}
+
+/* Wrapper for Each Skill (Image + Name) */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  alight-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(to left, #d67976, #6699ff);
+  padding: 10px
+}
+
+/* Prevent background bleeding */
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
 }
 
 /* Individual Icon Styling */
 .about-skills img {
-  width: 60px;
+  width: 80px;
   height: auto;
-  border: 2px solid #D67976;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+/* Skills Name Styling */
+.skills-name {
+  margin-top: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  weidth: 100%
 }
 
 /* Contact Form*/
