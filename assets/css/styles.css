@@ -123,47 +123,31 @@ li {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
+    position: relative;
     margin-top: 80px;
     padding-top: 80px;
     padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+    padding-right: 20px  
 }
 
-/* Styling for Profile Picture */
-.profile-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.profile-picture svg {
-    width: 400px; /* Adjust as needed */
-    height: auto;
-    fill: url(Gradient_1); /* Ensure your SVG supports this */
-}
-
-/* About Blurb Paragraph */
+/*About Blurb Paragraph */
 .about-blurb {
+    position: absolute;
+    top: 50%;
+    left: 7%; 
+    transform: translateY(-50%);
     width: 50%;
-    max-width: 800px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
     .about-blurb {
-        width: 90%;
+        width: 100%;
         padding: 10px;
-    }
-
-    .profile-picture svg {
-        width: 150px; /* Adjust for smaller screens */
     }
 }
 
