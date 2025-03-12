@@ -151,6 +151,13 @@ li {
     }
 }
 
+/* Styling for Profile Picture */
+.profile-picture svg {
+  width: 150px;
+  height: auto;
+  fill: linear-gradient(to left, #d67976, #6699ff)
+}
+
 /* Container for Skills Icons */
 .about-skills {
   position: absolute;
