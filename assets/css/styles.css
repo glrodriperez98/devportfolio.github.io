@@ -40,14 +40,34 @@ p {
   padding-top: 0;
 }
 
+/* Header */
+.header-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
 /* Heading CTA */
 .heading-cta {
-  color: #D67976;
   font-weight: bold;
   display: block;
   text-align: center;
   margin-top: 10px;
   text-decoration: none;
+}
+
+/* Heading Button */
+.heading-button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.heading-button:hover {
+  transform: scale(1.1);
 }
 
 /* Nav Bar */
@@ -95,18 +115,6 @@ ul {
 
 li {
   margin: 0 15px
-}
-
-
-/* Header */
-.header-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
 /* About Page */
