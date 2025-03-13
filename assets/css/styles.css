@@ -280,7 +280,6 @@ li {
 .project-info-container {
   width: 50%;
   text-align: center;
-  background: white;
   padding: 20px;
   border-radius: 10px;
   position: relative;
@@ -318,7 +317,7 @@ li {
 
 .project-button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: transparent;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -329,7 +328,7 @@ li {
 }
 
 .project-button:hover {
-  background-color: #0056b3;
+  background-color: #D67976;
 }
 
 /* Ensure form elements are styled */
@@ -365,6 +364,7 @@ li {
   border-radius: 5px;
   padding: 10px;
   fontsize: 16px;
+  background-color: transparent;
 }
 
 .contact-form button:hover {
