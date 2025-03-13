@@ -284,7 +284,6 @@ li {
 .project-info-container {
   flex: 1; /* Takes the other half */
   text-align: center;
-  background: white;
   padding: 20px;
   border-radius: 10px;
   position: relative;
@@ -310,7 +309,7 @@ li {
 
 .project-button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: transparent;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -321,7 +320,7 @@ li {
 }
 
 .project-button:hover {
-  background-color: #0056b3;
+  background-color: #D67976;
 }
 
 /* Contact Form */
@@ -363,7 +362,7 @@ li {
   border: 2px solid #007bff;
   cursor: pointer;
   overflow: hidden;
-  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
 }
 
 /* The Bar (Initially on the Right) */
@@ -374,19 +373,23 @@ li {
   right: 0;
   width: 4px; /* Initial width for the bar */
   height: 100%;
-  background-color: #D67976; /* Fill color */
+  background-color: #007bff; /* Fill color */
   transition: width 0.4s ease-in-out;
+  z-index: -1; /* Ensures the text stays visible */
 }
 
 /* Hover Effect (Expands from Right to Left) */
 .submit-button:hover::before {
   width: 100%; /* Fills the button */
+  left: 0; /* Ensures it fills from right to left */
+  right: auto;
 }
 
 .submit-button:hover {
-  color: black; /* Keep text visible */
-  border-color: #D67976;
+  color: white; /* Keeps text visible */
+  border-color: #0056b3;
 }
+
 
 
 /* Footer */
