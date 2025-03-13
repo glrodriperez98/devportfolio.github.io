@@ -359,6 +359,26 @@ li {
   padding: 10px;
   fontsize: 16px;
   background-color: transparent;
+  overflow: hidden;
+  tansition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.contact-form button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%
+  background-color: #D67976;
+  display: block;
+  transition: width 0.4s ease-in-out;
+}
+
+.contact-form button:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
 }
 
 .contact-form button:hover {
