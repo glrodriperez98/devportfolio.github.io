@@ -3,6 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   font-family: 'Lato', arial, sans-serif;
@@ -217,7 +224,7 @@ li {
   weidth: 100%
 }
 
-/* Main Project Section */
+/* Project Section */
 .projects {
   display: flex;
   flex-direction: column;
@@ -235,69 +242,47 @@ li {
   margin-bottom: 2rem;
 }
 
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Main Project Section */
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  padding: 50px 5%; /* Add side padding for better spacing */
-  width: 100%;
-  max-width: 1200px; /* Prevents content from getting too wide */
-  margin: auto;
-}
-
 /* Project Containers */
 .project-container-left,
 .project-container-right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
-  min-height: 500px; /* Keeps consistent height */
+  min-height: 400px;
   position: relative;
-  gap: 2rem;
 }
 
 /* Image Container */
 .project-image-container {
-  flex-basis: 50%; /* Takes half of the available space */
+  flex: 1; /* Allows it to fill half of the parent container */
   height: 100%;
   background-color: #6699ff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0; /* Adds extra color above/below the image */
   overflow: hidden;
 }
 
-/* Ensure Images Touch the Page Edge */
+/* Make images touch the page edges */
 .project-container-left .project-image-container {
-  align-self: stretch;
+  justify-content: flex-start;
 }
 
 .project-container-right .project-image-container {
-  align-self: stretch;
+  justify-content: flex-end;
 }
 
-/* Ensure Image Fills the Container */
+/* Ensure Image Fills Container */
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Makes sure it scales properly */
+  object-fit: cover;
   display: block;
 }
 
 /* Text Container */
 .project-info-container {
-  flex-basis: 50%; /* Takes half of the available space */
+  flex: 1; /* Takes the other half */
   text-align: center;
   background: white;
   padding: 20px;
@@ -306,16 +291,16 @@ li {
   z-index: 2;
 }
 
-/* Shift text slightly into the colored background */
+/* Move text halfway into the colored background */
 .project-container-left .project-info-container {
-  margin-left: -5%;
+  margin-left: -10%;
 }
 
 .project-container-right .project-info-container {
-  margin-right: -5%;
+  margin-right: -10%;
 }
 
-/* Button Styles */
+/* Stack Buttons */
 .project-buttons {
   display: flex;
   flex-direction: column;
@@ -325,7 +310,7 @@ li {
 
 .project-button {
   display: inline-block;
-  background-color: transparent;
+  background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -336,8 +321,10 @@ li {
 }
 
 .project-button:hover {
-  background-color: #D67976;
+  background-color: #0056b3;
 }
+
+/* Contact Form */
 
 /* Ensure form elements are styled */
 .contact-form input,
@@ -363,22 +350,44 @@ li {
   height: 40px;
 }
 
-/* Style for submit button */
-.contact-form button {
-  cursor: pointer;
+/* Submit Button */
+.submit-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
   font-weight: bold;
+  text-transform: uppercase;
   color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  fontsize: 16px;
   background-color: transparent;
+  border: 2px solid #007bff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.contact-form button:hover {
-  background-color: #D67976;
-  color: black;
+/* The Bar (Initially on the Right) */
+.submit-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px; /* Initial width for the bar */
+  height: 100%;
+  background-color: #D67976; /* Fill color */
+  transition: width 0.4s ease-in-out;
 }
+
+/* Hover Effect (Expands from Right to Left) */
+.submit-button:hover::before {
+  width: 100%; /* Fills the button */
+}
+
+.submit-button:hover {
+  color: black; /* Keep text visible */
+  border-color: #D67976;
+}
+
 
 /* Footer */
 .footer-container {
