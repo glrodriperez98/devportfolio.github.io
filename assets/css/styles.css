@@ -328,7 +328,7 @@ li {
 /* Ensure form elements are styled */
 .contact-form input,
 .contact-form textarea,
-.contact-form button {
+/*.contact-form button*/ {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
