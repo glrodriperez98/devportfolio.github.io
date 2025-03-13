@@ -231,7 +231,7 @@ li {
 .project-heading {
   text-align: center;
   margin-bottom: 2rem;
-  padding-top: 150px; /* Adjust this value based on your navbar height */
+  padding-top: 200px; /* Adjust this value based on your navbar height */
 }
 
 /* Project Containers */
@@ -242,9 +242,7 @@ li {
   align-items: center;
   justify-content: center;
   max-width: 80%;
-  border: 2px solid #ccc;
   padding: 20px;
-  border-radius: 10px;
   min-height: 300px; /* Ensures equal height */
   gap: 20px;
 }
