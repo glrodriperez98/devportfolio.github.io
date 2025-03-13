@@ -350,7 +350,7 @@ li {
 }
 
 /* Submit Button */
-.contact-form .submit-button {
+.submit-button {
   position: relative;
   display: inline-block;
   padding: 12px 24px;
@@ -365,32 +365,31 @@ li {
   transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
 }
 
-/* The Bar (Initially on the Right) */
-.contact-form .submit-button::before {
+/* The Right-Side Bar Before Hover */
+.submit-button::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  width: 4px; /* Initial width for the bar */
+  width: 4px; /* Initial thin bar on the right */
   height: 100%;
   background-color: #007bff; /* Fill color */
+  display: block; /* Ensures it's visible */
   transition: width 0.4s ease-in-out;
-  z-index: -1; /* Ensures the text stays visible */
+  z-index: -1; /* Keeps text above the background */
 }
 
-/* Hover Effect (Expands from Right to Left) */
-.contact-form .submit-button:hover::before {
+/* Hover Effect - Expands from Right to Left */
+.submit-button:hover::before {
   width: 100%; /* Fills the button */
-  left: 0; /* Ensures it fills from right to left */
+  left: 0;
   right: auto;
 }
 
-.contact-form .submit-button:hover {
+.submit-button:hover {
   color: white; /* Keeps text visible */
   border-color: #0056b3;
 }
-
-
 
 /* Footer */
 .footer-container {
