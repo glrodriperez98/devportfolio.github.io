@@ -235,78 +235,87 @@ li {
   margin-bottom: 2rem;
 }
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Project Section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 50px 5%; /* Add side padding for better spacing */
+  width: 100%;
+  max-width: 1200px; /* Prevents content from getting too wide */
+  margin: auto;
+}
+
 /* Project Containers */
 .project-container-left,
 .project-container-right {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
-  min-height: 100vh; /* Full viewport height */
+  min-height: 500px; /* Keeps consistent height */
   position: relative;
+  gap: 2rem;
 }
 
 /* Image Container */
 .project-image-container {
-  width: 50vw; /* Exactly half the screen width */
-  height: 100vh; /* Full viewport height */
+  flex-basis: 50%; /* Takes half of the available space */
+  height: 100%;
   background-color: #6699ff;
-  position: absolute;
-  top: 0;
-  overflow: hidden; /* Ensures no extra spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0; /* Adds extra color above/below the image */
+  overflow: hidden;
 }
 
-/* Force left image to touch the left edge */
+/* Ensure Images Touch the Page Edge */
 .project-container-left .project-image-container {
-  left: 0;
+  align-self: stretch;
 }
 
-/* Force right image to touch the right edge */
 .project-container-right .project-image-container {
-  right: 0;
+  align-self: stretch;
 }
 
 /* Ensure Image Fills the Container */
 .project-image img {
-  width: 100%;  /* Fill the full width */
-  height: 100%; /* Fill the full height */
-  object-fit: cover; /* Ensures the image covers the area */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes sure it scales properly */
   display: block;
 }
 
 /* Text Container */
 .project-info-container {
-  flex: 1;
+  flex-basis: 50%; /* Takes half of the available space */
   text-align: center;
   background: white;
   padding: 20px;
   border-radius: 10px;
   position: relative;
   z-index: 2;
-  max-width: 50vw;
 }
 
 /* Shift text slightly into the colored background */
 .project-container-left .project-info-container {
-  margin-left: -10%;
+  margin-left: -5%;
 }
 
 .project-container-right .project-info-container {
-  margin-right: -10%;
+  margin-right: -5%;
 }
 
-/* Project Titles */
-.project-title {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-/* Project Description */
-.project-description {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-/* Buttons */
+/* Button Styles */
 .project-buttons {
   display: flex;
   flex-direction: column;
