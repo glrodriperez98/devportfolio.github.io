@@ -223,32 +223,94 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
+  padding: 50px 10px;
 }
 
-/* .project-heading */
+/* Fix the header being pushed up */
+.project-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 80px; /* Adjust this value based on your navbar height */
+}
 
+/* Project Containers */
+.project-container-left,
+.project-container-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 300px; /* Ensures equal height */
+  gap: 20px;
+}
+
+/* Alternate positioning */
 .project-container-left {
-  margin-left: 0;
-  align-self: flex-start;
+  flex-direction: row;
 }
 
-.project_image-container {
-  position: relative;
+.project-container-right {
+  flex-direction: row-reverse;
+}
+
+/* Image Container */
+.project-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #6699ff;
-  transition: all 0.2s;
-  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .project-image {
-  width: 85%;
-  position: relative;
+  width: 100%;
+  max-width: 250px; /* Adjust as needed */
 }
 
-.projects img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+/* Info Container */
+.project-info-container {
+  flex: 2;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.project-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.project-button:hover {
+  background-color: #0056b3;
+}
 
 /* Contact Form*/
 .contact-form-wrapper {
