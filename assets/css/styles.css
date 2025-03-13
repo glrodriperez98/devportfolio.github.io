@@ -349,46 +349,21 @@ li {
   height: 40px;
 }
 
-/* Submit Button */
-.submit-button {
-  position: relative;
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  background-color: transparent;
-  border: 2px solid #007bff;
+/* Style for submit button */
+.contact-form button {
   cursor: pointer;
-  overflow: hidden;
-  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  fontsize: 16px;
+  background-color: transparent;
 }
 
-/* The Right-Side Bar Before Hover */
-.submit-button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 4px; /* Initial thin bar on the right */
-  height: 100%;
-  background-color: #007bff; /* Fill color */
-  display: block; /* Ensures it's visible */
-  transition: width 0.4s ease-in-out;
-  z-index: -1; /* Keeps text above the background */
-}
-
-/* Hover Effect - Expands from Right to Left */
-.submit-button:hover::before {
-  width: 100%; /* Fills the button */
-  left: 0;
-  right: auto;
-}
-
-.submit-button:hover {
-  color: white; /* Keeps text visible */
-  border-color: #0056b3;
+.contact-form button:hover {
+  background-color: #D67976;
+  color: black;
 }
 
 /* Footer */
