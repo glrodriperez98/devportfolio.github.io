@@ -217,6 +217,39 @@ li {
   weidth: 100%
 }
 
+/* Project Section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .project-heading */
+
+.project-container-left {
+  margin-left: 0;
+  align-self: flex-start;
+}
+
+.project_image-container {
+  position: relative;
+  background-color: #6699ff;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.project-image {
+  width: 85%
+  position: relative;
+}
+
+.projects img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
 /* Contact Form*/
 .contact-form-wrapper {
   display: flex;
