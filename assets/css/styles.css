@@ -260,12 +260,12 @@ li {
 
 /* Push left image to the edge */
 .project-container-left .project-image-container {
-  left: 0;
+  left: 15;
 }
 
 /* Push right image to the edge */
 .project-container-right .project-image-container {
-  right: 0;
+  right: 15;
 }
 
 /* Image Styling */
