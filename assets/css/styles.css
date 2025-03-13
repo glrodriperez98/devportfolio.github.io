@@ -260,12 +260,12 @@ li {
 
 /* Push left image to the edge */
 .project-container-left .project-image-container {
-  left: 15;
+  left: 0;
 }
 
 /* Push right image to the edge */
 .project-container-right .project-image-container {
-  right: 15;
+  right: 0;
 }
 
 /* Image Styling */
@@ -288,11 +288,11 @@ li {
 
 /* Move text halfway into the colored background */
 .project-container-left .project-info-container {
-  margin-left: 0;
+  margin-left: 15%;
 }
 
 .project-container-right .project-info-container {
-  margin-right: 0;
+  margin-right: 15%;
 }
 
 /* Project Titles */
