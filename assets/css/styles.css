@@ -288,11 +288,11 @@ li {
 
 /* Move text halfway into the colored background */
 .project-container-left .project-info-container {
-  margin-left: -40%;
+  margin-left: 0;
 }
 
 .project-container-right .project-info-container {
-  margin-right: -20%;
+  margin-right: 0;
 }
 
 /* Project Titles */
