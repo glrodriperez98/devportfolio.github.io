@@ -350,7 +350,7 @@ li {
 }
 
 /* Submit Button */
-.submit-button {
+.contact-form .submit-button {
   position: relative;
   display: inline-block;
   padding: 12px 24px;
@@ -366,7 +366,7 @@ li {
 }
 
 /* The Bar (Initially on the Right) */
-.submit-button::before {
+.contact-form .submit-button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -379,13 +379,13 @@ li {
 }
 
 /* Hover Effect (Expands from Right to Left) */
-.submit-button:hover::before {
+.contact-form .submit-button:hover::before {
   width: 100%; /* Fills the button */
   left: 0; /* Ensures it fills from right to left */
   right: auto;
 }
 
-.submit-button:hover {
+.contact-form .submit-button:hover {
   color: white; /* Keeps text visible */
   border-color: #0056b3;
 }
