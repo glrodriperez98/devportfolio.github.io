@@ -357,12 +357,11 @@ li {
   font-weight: bold;
   color: white;
   border: 2px solid #D67976;
-  border-radius: 5px;
   padding: 12px 24px;
   fontsize: 16px;
   background-color: transparent;
   overflow: hidden;
-  tansition: color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  tansition: color 0.1s ease-in-out, border-color 0.1s ease-in-out;
 }
 
 .contact-form button::before {
@@ -380,8 +379,8 @@ li {
 
 .contact-form button:hover::before {
   width: 100%;
-  left: auto;
-  right: 0;
+  left: 0;
+  right: auto;
 }
 
 .contact-form button:hover {
